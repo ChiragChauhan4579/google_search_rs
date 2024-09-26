@@ -1,0 +1,23 @@
+[package]
+name = "google_search_rs"
+version = "0.1.0"
+authors = ["Chirag Chauhan chiragchauhan1030@gmail.com"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "A crate for scraping Google search results using headless Chrome."
+repository = ""
+keywords = ["web scraping", "rust", "google results scraping", "headless chrome"]
+categories = ["utilities"]
+readme = "README.md"
+
+[dependencies]
+scraper = "0.14"
+headless_chrome = "1.0.14"
+reqwest = { version = "0.12.7", features = ["blocking", "json"] }
+serde_json = "1.0"
+polars = { version = "0.43.1"}
+urlencoding = "2.1"
+
+[lib]
+name = "google_search_rs"
+path = "src/lib.rs"
