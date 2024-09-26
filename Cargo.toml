@@ -7,7 +7,7 @@ license = "MIT OR Apache-2.0"
 description = "A crate for scraping Google search results using headless Chrome."
 repository = "https://github.com/ChiragChauhan4579/google_search_rs"
 keywords = ["google-search"]
-categories = ["utilities"]
+categories = ["parsing"]
 readme = "README.md"
 
 [dependencies]
