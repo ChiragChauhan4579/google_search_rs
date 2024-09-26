@@ -1,5 +1,7 @@
 # google_search_rs
 
+![](https://github.com/ChiragChauhan4579/google_search_rs/blob/main/google_search_rs_demo.gif)
+
 google_search_rs allows you to scrape Google search results programmatically using a headless browser, extract relevant information (titles, URLs, and snippets), and store the results in a polars::DataFrame or CSV file.
 
 ## Features
